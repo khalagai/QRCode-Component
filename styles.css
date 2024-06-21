@@ -1,0 +1,46 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .img-qr {
+     width: 95%;
+     border-radius: 10px;
+    }
+    p {
+      font-size: 15px;
+    }
+    body {background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(220, 15%, 55%);
+
+    }
+    .details {
+      border: 5px hsl(0, 0%, 100%) solid;
+      position: relative;
+      margin: auto;
+      width: 250px;
+      text-align: center;
+      padding-top: 5px;
+      border-radius: 10px;
+      background-color: hsl(0, 0%, 100%);
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: hsl(218, 44%, 22%);
+    }
+    @media(max-width: 375px) {
+      .container {
+        position: absolute;
+        padding: 0%;
+      }
+    }
+    body {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  }
